@@ -1,0 +1,21 @@
+button {
+    float: left;
+    margin: 10px;
+}
+
+ul {
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.main-div {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    height: 100vh;
+    transition: 1s;
+}

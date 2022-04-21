@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%);
+}
+.col-md-5 {
+    margin-top: 25vh;
+    background-color: #fff;
+    padding:10px;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+input {
+    margin-top: 10px;
+    border-width: 3px;
+    background-image: linear-gradient(to left, #f5f3f3 0%, #f1e0da 100%);
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f36541 !important;
+}
+
+button:hover{
+    background-color: #11c95f !important;
+}
+
+small {
+    color: red;
+    font-weight: 600;
+}

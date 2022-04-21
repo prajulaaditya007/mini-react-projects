@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import Calculator from "./Components/Calculator/Calculator";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import FormValidator from "./Components/Form Validator/FormValidator";
+// import Navigation from "./Components/Navigation/Navigation";
+// import Todo from "./Components/Todo List/Todo";
+import CovidTracker from "./Components/CovidTracker/CovidTracker";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <CovidTracker/>
+    );
 }
 
 export default App;
