@@ -4,13 +4,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import FormValidator from "./Components/Form Validator/FormValidator";
 // import Navigation from "./Components/Navigation/Navigation";
 // import Todo from "./Components/Todo List/Todo";
-import CovidTracker from "./Components/CovidTracker/CovidTracker";
+// import CovidTracker from "./Components/CovidTracker/CovidTracker";
 
 
 function App() {
     return (
-        <CovidTracker/>
+        <div>Hello World!!</div>
     );
 }
 
 export default App;
+
